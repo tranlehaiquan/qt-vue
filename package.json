@@ -1,0 +1,27 @@
+{
+  "name": "build-own-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "test": "karma start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "buble": "^0.19.3",
+    "jasmine": "^3.2.0",
+    "karma": "^3.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-rollup-plugin": "^0.2.4",
+    "karma-rollup-preprocessor": "^6.0.0",
+    "rollup": "^0.64.1",
+    "rollup-plugin-buble": "^0.19.2",
+    "rollup-watch": "^4.3.1"
+  },
+  "dependencies": {}
+}
